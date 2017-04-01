@@ -1,0 +1,16 @@
+html {
+    min-width: 0px;
+}
+@media(max-width:60em) {
+    table.song-table td:not([data-col="title"]), table.song-table th:not([data-col="title"]), div#material-player-right-wrapper, div.card.draggable.cover-card {
+        display: none;
+    }
+    div.info {
+        margin: 0 30px 0 20px;
+    }
+}
+@media(min-width:100em) {
+    table.song-table td:not([data-col="title"]) table.song-table th:not([data-col="title"]) {
+        display: block;
+    }
+}
